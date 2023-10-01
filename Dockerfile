@@ -7,6 +7,6 @@ COPY requirements.txt /requirements.txt
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 RUN mkdir /UHD_Tamil
-WORKDIR /UhD_Tamil
+WORKDIR /UHD_Tamil
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
