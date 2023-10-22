@@ -23,8 +23,8 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/dbb3e968901b993132fe5.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/df85b2b9b5666d04d9b43.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
-SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/8d30d3bec2f809898f2a0.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/df85b2b9b5666d04d9b43.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1291610043').split()]
