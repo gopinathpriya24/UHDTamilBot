@@ -23,14 +23,14 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🦋 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 🦋', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/UHD_Tamil"),
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/+gHYy244ScxoxZjI1')
+                    InlineKeyboardButton('🕊️Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ🕊️', url="https://t.me/UHD_Tamil"),
+                    InlineKeyboardButton('❄️Mᴏᴠɪᴇ Gʀᴏᴜᴘ❄️', url='https://t.me/+gHYy244ScxoxZjI1')
                 ],[
                   InlineKeyboardButton('💌 SOURCE CODE 💌', callback_data='source')
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('🌸Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ🌸', url='https://t.me/+lUNel84X54NkNTg1')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -45,17 +45,17 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🦋Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ🦋', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/+gHYy244ScxoxZjI1')
+                    InlineKeyboardButton('❄️Mᴏᴠɪᴇ Gʀᴏᴜᴘ❄️', url='https://t.me/+gHYy244ScxoxZjI1')
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('~Aʙᴏᴜᴛ~', callback_data='about')
                 ],[
                   InlineKeyboardButton('💌 SOURCE CODE 💌', callback_data='source')
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('🌸Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ🌸', url='https://t.me/+lUNel84X54NkNTg1')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEKnAJlOfSrzGR566oOcn-40VdzuPO8UwACFgUAAmlRGVQ12LNJpW-I5jAE") 
@@ -77,9 +77,9 @@ async def start(client, message):
             return
         btn = [
             [
-                InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link)
+                InlineKeyboardButton("❄️Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ❄️", url=invite_link.invite_link)
             ],[
-                InlineKeyboardButton('🤔 Why Iam Join🤔', callback_data='sinfo')
+                InlineKeyboardButton('🤔Why Im Joining🤔', callback_data='sinfo')
             ]
         ]
 
@@ -99,17 +99,17 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🦋Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ🦋', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=CHNL_LNK)
+                    InlineKeyboardButton('❄️Mᴏᴠɪᴇ Gʀᴏᴜᴘ❄️', url='https://t.me/+gHYy244ScxoxZjI1')
                 ],[
                     InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('~Aʙᴏᴜᴛ~', callback_data='about')
                 ],[
                   InlineKeyboardButton('💌 SOURCE CODE 💌', callback_data='source')
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('🌸Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ🌸', url=CHNL_LNK)
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -161,13 +161,13 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/+gHYy244ScxoxZjI1'),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                                InlineKeyboardButton('💌Sᴜᴘᴘᴏʀᴛ💌', url='https://t.me/UHD_Tamil'),
+                                InlineKeyboardButton('✨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ✨', url='https://t.me/+gHYy244ScxoxZjI1')
                             ],[
-                                InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/GN24M")
+                                InlineKeyboardButton('🔻ꪮ᭙ꪀꫀ𝘳🔻', url="https://t.me/GN24M")
                             ],
                             [
-                                InlineKeyboardButton('Main Channel', url='https://t.me/+lUNel84X54NkNTg1') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('💥Main Channel💥', url='https://t.me/+lUNel84X54NkNTg1') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -183,12 +183,12 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/+gHYy244ScxoxZjI1'),
-                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                          InlineKeyboardButton('💌Sᴜᴘᴘᴏʀᴛ💌', url='https://t.me/UHD_Tamil'),
+                          InlineKeyboardButton('✨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ✨', url='https://t.me/+gHYy244ScxoxZjI1')
                        ],[
-                          InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/GN24M")
+                          InlineKeyboardButton("🔻ꪮ᭙ꪀꫀ𝘳🔻", url="t.me/GN24M")
                          ],[ 
-                            InlineKeyboardButton('Main Channel', url='https://t.me/+lUNel84X54NkNTg1') #Don't change anything without contacting me @LazyDeveloperr
+                            InlineKeyboardButton('💥Main Channel💥', url='https://t.me/+lUNel84X54NkNTg1') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -342,13 +342,13 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/+gHYy244ScxoxZjI1'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                      InlineKeyboardButton('💌Sᴜᴘᴘᴏʀᴛ💌', url='https://t.me/UHD_Tamil'),
+                      InlineKeyboardButton('✨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ✨', url='https://t.me/+gHYy244ScxoxZjI1')
                    ],[
-                      InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/GN24M")
+                      InlineKeyboardButton("🔻ꪮ᭙ꪀꫀ𝘳🔻", url="t.me/GN24M")
                      ],
                      [
-                        InlineKeyboardButton('Main Channel', url='https://t.me/+lUNel84X54NkNTg1') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton('💥Main Channel💥', url='https://t.me/+lUNel84X54NkNTg1') #Don't change anything without contacting me @LazyDeveloperr
 
                      ]
                     ]
@@ -408,13 +408,13 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/+gHYy244ScxoxZjI1'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                      InlineKeyboardButton('💌Sᴜᴘᴘᴏʀᴛ💌', url='https://t.me/UHD_Tamil'),
+                      InlineKeyboardButton('✨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ✨', url='https://t.me/+gHYy244ScxoxZjI1')
                    ],[
-                      InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/UHD_Tamil")
+                      InlineKeyboardButton("🔻ꪮ᭙ꪀꫀ𝘳🔻", url="t.me/GN24M")
                      ],
                      [
-                        InlineKeyboardButton('Main Channel', url='https://t.me/+lUNel84X54NkNTg1') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton('💥Main Channel💥', url='https://t.me/+lUNel84X54NkNTg1') #Don't change anything without contacting me @LazyDeveloperr
                      ]
                     ]
                 )
@@ -471,13 +471,13 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/+gHYy244ScxoxZjI1'),
-              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+              InlineKeyboardButton('💌Sᴜᴘᴘᴏʀᴛ💌', url='https://t.me/UHD_Tamil'),
+              InlineKeyboardButton('✨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ✨', url='https://t.me/+gHYy244ScxoxZjI1')
            ],[
-              InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/GN24M")
+              InlineKeyboardButton("🔻ꪮ᭙ꪀꫀ𝘳🔻", url="t.me/GN24M")
              ],
              [
-              InlineKeyboardButton('Main Channel', url='https://t.me/+lUNel84X54NkNTg1') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('💥Main Channel💥', url='https://t.me/+lUNel84X54NkNTg1') #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
