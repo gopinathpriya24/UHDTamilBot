@@ -5,9 +5,9 @@ class script(object):
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/UHD_Tamil_bot>♥️ Tessa 𝕏 UHD ♥️</a>
+‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/UHD_Tamil_bot>🌸 UHD Tamil Bot 🌸</a>
  ‣ My best friend : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
- ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/GN24M'>OWNER 🇮🇳</a> 
+ ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/GN24M'>🍁MG24🍁</a> 
  ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
  ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
  ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</ba> 
@@ -663,11 +663,11 @@ Also your tutorial will be Added Your Group..."""
     DEVELOPER_TXT = """
 special Thanks To ❤️ Developers -
 
--Dev 1 [Owner of this bot ]<a href='https://t.me/GN24M'>ⁱᵗᶻ ᵐᵉ ᵗᵍ 🇮🇳</a>
+-Dev 1 [Owner of this bot ]<a href='https://t.me/GN24M'>🍁MG24🍁</a>
 
 -Dev 2 <a href='https://t.me/UHD_Tamil'>MG</a>
 
--Dev 3 <a href='https://t.me/UHD_Tamil>Jᴏᴇʟ </> TɢX</a>
+-Dev 3 <a href='https://t.me/UHD_Tamil>2408</> TɢX</a>
 
 - Dev 4 <a href='https://t.me/UHD_Tamil'>TEAM UHD</a>
 """
