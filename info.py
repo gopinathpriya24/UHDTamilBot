@@ -8,14 +8,14 @@ def is_enabled(value, default):
         return True
     elif value.lower() in ["false", "no", "0", "disable", "n"]:
         return False
-    else:
+    el
         return default
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '29610881'))
 API_HASH = environ.get('API_HASH', '81d92754c9e7e7be225bf656e04e6f45')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6481109422:AAErWurfj1FtqAje0ObBpjX42tzS5JSRl4c")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6481109422:AAGEyM8eErxDQOASmyaMawPtsl2_HghPqOw")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
