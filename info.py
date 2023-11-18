@@ -8,7 +8,7 @@ def is_enabled(value, default):
         return True
     elif value.lower() in ["false", "no", "0", "disable", "n"]:
         return False
-    el
+    else:
         return default
 
 # Bot information
@@ -44,7 +44,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mrprince24gopriya:UHDTamil@cluster0.phrh95g.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "mrprince24gopriya")
+DATABASE_NAME = environ.get('DATABASE_NAME', "UHD_Tamil")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
