@@ -44,7 +44,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mrprince24gopriya:UHDTamil@cluster0.phrh95g.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "UHD_Tamil")
+DATABASE_NAME = environ.get('DATABASE_NAME', "mrprince24gopriya")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
@@ -62,7 +62,7 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/UHD_Links')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', '🌸 UHD Tamil Bot 🌸')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001706458871'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'GN24M')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+gHYy244ScxoxZjI1')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
