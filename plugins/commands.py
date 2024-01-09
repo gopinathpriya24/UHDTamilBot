@@ -164,10 +164,10 @@ async def start(client, message):
                                 InlineKeyboardButton('💌Sᴜᴘᴘᴏʀᴛ💌', url='https://t.me/UHD_Tamil'),
                                 InlineKeyboardButton('✨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ✨', url='https://t.me/+gHYy244ScxoxZjI1')
                             ],[
-                                InlineKeyboardButton('🔻ꪮ᭙ꪀꫀ𝘳🔻', url="https://t.me/GN24M")
+                                InlineKeyboardButton('🔻ɴᴇᴡ ᴍᴏᴠɪᴇs🔻', url="https://t.me/+lUNel84X54NkNTg1")
                             ],
                             [
-                                InlineKeyboardButton('💥Main Channel💥', url='https://t.me/+lUNel84X54NkNTg1') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -186,9 +186,9 @@ async def start(client, message):
                           InlineKeyboardButton('💌Sᴜᴘᴘᴏʀᴛ💌', url='https://t.me/UHD_Tamil'),
                           InlineKeyboardButton('✨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ✨', url='https://t.me/+gHYy244ScxoxZjI1')
                        ],[
-                          InlineKeyboardButton("🔻ꪮ᭙ꪀꫀ𝘳🔻", url="t.me/GN24M")
+                          InlineKeyboardButton("🔻ɴᴇᴡ ᴍᴏᴠɪᴇs🔻", url="https://t.me/+lUNel84X54NkNTg1")
                          ],[ 
-                            InlineKeyboardButton('💥Main Channel💥', url='https://t.me/+lUNel84X54NkNTg1') #Don't change anything without contacting me @LazyDeveloperr
+                            InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -345,10 +345,10 @@ async def start(client, message):
                       InlineKeyboardButton('💌Sᴜᴘᴘᴏʀᴛ💌', url='https://t.me/UHD_Tamil'),
                       InlineKeyboardButton('✨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ✨', url='https://t.me/+gHYy244ScxoxZjI1')
                    ],[
-                      InlineKeyboardButton("🔻ꪮ᭙ꪀꫀ𝘳🔻", url="t.me/GN24M")
+                      InlineKeyboardButton("🔻ɴᴇᴡ ᴍᴏᴠɪᴇs🔻", url="https://t.me/+lUNel84X54NkNTg1")
                      ],
                      [
-                        InlineKeyboardButton('💥Main Channel💥', url='https://t.me/+lUNel84X54NkNTg1') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
 
                      ]
                     ]
@@ -411,10 +411,10 @@ async def start(client, message):
                       InlineKeyboardButton('💌Sᴜᴘᴘᴏʀᴛ💌', url='https://t.me/UHD_Tamil'),
                       InlineKeyboardButton('✨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ✨', url='https://t.me/+gHYy244ScxoxZjI1')
                    ],[
-                      InlineKeyboardButton("🔻ꪮ᭙ꪀꫀ𝘳🔻", url="t.me/GN24M")
+                      InlineKeyboardButton("🔻ɴᴇᴡ ᴍᴏᴠɪᴇs🔻", url="https://t.me/+lUNel84X54NkNTg1")
                      ],
                      [
-                        InlineKeyboardButton('💥Main Channel💥', url='https://t.me/+lUNel84X54NkNTg1') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                      ]
                     ]
                 )
@@ -474,10 +474,10 @@ async def start(client, message):
               InlineKeyboardButton('💌Sᴜᴘᴘᴏʀᴛ💌', url='https://t.me/UHD_Tamil'),
               InlineKeyboardButton('✨ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ✨', url='https://t.me/+gHYy244ScxoxZjI1')
            ],[
-              InlineKeyboardButton("🔻ꪮ᭙ꪀꫀ𝘳🔻", url="t.me/GN24M")
+              InlineKeyboardButton("🔻ɴᴇᴡ ᴍᴏᴠɪᴇs🔻", url="https://t.me/+lUNel84X54NkNTg1")
              ],
              [
-              InlineKeyboardButton('💥Main Channel💥', url='https://t.me/+lUNel84X54NkNTg1') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
